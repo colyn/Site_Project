@@ -1,3 +1,11 @@
+html {
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+/* Basic reset.
+*/
+
 body, nav, ul, link {
   margin: 0;
   padding: 0;
@@ -9,14 +17,12 @@ body, nav, ul, link {
 	background: #081540;
 	padding: 100px 200px 200px; }
 	#name h1 {
-		width: 800px;
 		font-family: 'Playfair Display', serif;
 		font-size: 4em;
 		font-weight: 700;
 		color: #fefeff;
 		font-style: italic; }
 	#name h1 a:link {
-		width: 800px;
 		font-family: 'Playfair Display', serif;
 		text-decoration: none;
 		color: #fefeff; }
@@ -34,23 +40,18 @@ body, nav, ul, link {
 		font-family: 'Playfair Display', serif;
 		font-style: italic;
 		color: #fefeff;
-		width: 800px;
 		padding-right: 20px; 
 		padding-bottom: 5px; }
 	#mainav li a:link {
-		font-family: 'Playfair Display', serif;
-		font-style: italic;
 		text-decoration: none;
 		padding-bottom: 5px;
 		border-bottom: 10px solid #fefeff; }
 	#mainav li a:visited {
-		font-family: 'Playfair Display', serif;
-		font-style: italic;
-		text-decoration: none; }
+		text-decoration: none;
+		border-bottom: 10px solid #fefeff; }
 	#mainav li a:hover {
-		font-family: 'Playfair Display', serif;
-		font-style: italic;
-		text-decoration: none; }
+		text-decoration: none; 
+		border-bottom: 10px solid #0fc; }
 	#name li a:link{ 
 		color: #fefeff; }
 	#name li a:visited {
@@ -60,21 +61,19 @@ body, nav, ul, link {
 
 #about {
 	background: #eaeaec;
-	padding: 100px;}
+	padding: 100px;
+	font-family: 'Open Sans', sans-serif; }
 	#about h3 {
-		width: 800px;
-		font-family: 'Open Sans', serif;
 		font-size: 2em;
 		font-weight: 300;
 		color: #1F45BF;
 		padding-left: 100px; }
 	#about p {
-		width: 800px;
-		font-family: 'Open Sans', sans-serif;
 		font-size: 1.25em;
 		font-weight: 300;
 		color: #808181;
-		padding-left: 100px; }
+		padding-left: 100px; 
+		max-width: 61.75em }
 	#about a:link {
 		text-decoration: none;
 		color: #333333; }
@@ -156,11 +155,5 @@ body, nav, ul, link {
 			font-family: 'Open Sans', sans-serif;
 			font-size: 1em;
 			color: #0fc;}
-		#location {
-			float: right;
-			text-align: right;
-			padding-top: -200px;
-		}
-		
 
-
+			
