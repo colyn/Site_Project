@@ -115,28 +115,28 @@ body, nav, ul, link {
 				left:0px;
 				width:50px; }
 			#twitter{
-				background:url('social_sprite.gif') 0 0; }
+				background:url('/img/social_sprite.gif') 0 0; }
 			#twitter a:hover{
-				background:url('social_sprite.gif') 0 -50px; }
+				background:url('/img/social_sprite.gif') 0 -50px; }
 			#tumblr{
 				left:50px;
 				width:50px; }
 			#tumblr{
-				background:url('social_sprite.gif') -50px 0; }
+				background:url('img/social_sprite.gif') -50px 0; }
 			#tumblr a:hover{
-				background:url('social_sprite.gif') -50px -50px; }
+				background:url('img/social_sprite.gif') -50px -50px; }
 			#linkedin{
 				left:100px;width:50px; }
 			#linkedin{
-				background:url('social_sprite.gif') -100px 0; }
+				background:url('img/social_sprite.gif') -100px 0; }
 			#linkedin a:hover{
-				background:url('social_sprite.gif') -100px -50px; }
+				background:url('img/social_sprite.gif') -100px -50px; }
 			#facebook{
 				left:150px;width:50px; }
 			#facebook{
-				background:url('social_sprite.gif') -150px 0; }
+				background:url('img/social_sprite.gif') -150px 0; }
 			#facebook a:hover{
-				background:url('social_sprite.gif') -150px -50px; }
+				background:url('img/social_sprite.gif') -150px -50px; }
 		#contact p {
 			font-family: 'Open Sans', sans-serif;
 			font-size: 1em;
@@ -156,4 +156,3 @@ body, nav, ul, link {
 			font-size: 1em;
 			color: #0fc;}
 
-			
